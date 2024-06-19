@@ -3,7 +3,6 @@ function round(value, precision) {
   return Math.round(value * multiplier) / multiplier;
 }
 
-
 const convertToCelsius = function(fahrenheitTemp) {
   return round(((fahrenheitTemp - 32) * 5 / 9), 1);
 };
